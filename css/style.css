@@ -4,10 +4,9 @@
 }
 .RelativeBsAS {
     position: relative;
+    display: inline-block;
+    text-align: right;
     margin-bottom: 16px;
-}
-.ImgFilter {
-    filter: brightness(60%);
 }
 .AbsoluteBsAs {
     position: absolute;
@@ -16,10 +15,11 @@
     right: 16px;
     padding-right: 6em;
     font-size: 18px;
-    text-align: right;
     color: white;
 }
-
+.ImgFilter {
+    filter: brightness(60%);
+}
 footer {
     background: -webkit-linear-gradient(0,#1c3846,#1e516e);
 }
